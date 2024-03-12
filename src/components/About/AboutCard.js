@@ -1,44 +1,45 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { CiStar } from "react-icons/ci";
 
 function AboutCard() {
-  return (
-    <Card className="quote-card-view">
-      <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Cris Atanacio </span>
-            from <span className="purple"> Manila, Philippines.</span>
-            <br />
-            I am currently employed as a software developer at Puregold Price Club Inc.
-            <br />
-            I have completed Bachelor of Science in Information Technology (BSIT) at City
-            of Malabon University.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Biking & Basketball
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Reading Manga/Manhwa
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Make it work, make it right, make it fast."{" "}
-          </p>
-          <footer className="blockquote-footer">Kent Beck</footer>
-        </blockquote>
-      </Card.Body>
-    </Card>
-  );
+	return (
+		<Card className="quote-card-view">
+			<Card.Body>
+				<blockquote className="blockquote mb-0">
+					<p style={{ textAlign: "justify" }}>
+						Hi Everyone! I am <span className="purple">Cris Atanacio </span>
+						from <span className="purple"> Manila, Philippines.</span>
+						<br />
+						I am currently employed as a full-stack developer at Puregold Price Club, Inc.
+						<br />
+						<br />I have completed{" "}
+						<b className="purple">Bachelor of Science in Information Technology (BSIT)</b> at{" "}
+						<b className="purple">City of Malabon University</b>.
+						<br />
+						<br />I started my career using <b className="purple">PHP and Java</b> for creating
+						websites and simple apps, but currently I'm enjoying the frontend side with{" "}
+						<b className="purple">React and React Native</b>.
+						<br />
+						<br />
+						Apart from coding, some other activities that I love to do!
+					</p>
+					<ul>
+						<li className="about-activity">
+							<CiStar /> Playing Video Games
+						</li>
+						<li className="about-activity">
+							<CiStar /> Biking & Basketball
+						</li>
+						<li className="about-activity">
+							<CiStar /> Reading Manga/Manhwa
+						</li>
+					</ul>
+				</blockquote>
+			</Card.Body>
+		</Card>
+	);
 }
 
 export default AboutCard;
