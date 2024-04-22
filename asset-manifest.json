@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.dc8902d8.css",
-    "main.js": "/portfolio/static/js/main.c54d79fd.js",
+    "main.js": "/portfolio/static/js/main.b6182d5e.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/leaf.png": "/portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
@@ -9,7 +9,7 @@
     "static/media/suicide.png": "/portfolio/static/media/suicide.9c86cd7138a398c45fa5.png",
     "static/media/codeEditor.png": "/portfolio/static/media/codeEditor.1b585492490c8c1cace9.png",
     "static/media/blog.png": "/portfolio/static/media/blog.fb8ab7f271a937d5fc01.png",
-    "static/media/crisatanacio.resume.pdf": "/portfolio/static/media/crisatanacio.resume.69fa9c910c71b436e85f.pdf",
+    "static/media/crisatanacio.resume.pdf": "/portfolio/static/media/crisatanacio.resume.6b878abcfb63568ebadb.pdf",
     "static/media/home-main.svg": "/portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/chatify.png": "/portfolio/static/media/chatify.7206044e0b5cdad44726.png",
@@ -18,12 +18,12 @@
     "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portfolio/index.html",
     "main.dc8902d8.css.map": "/portfolio/static/css/main.dc8902d8.css.map",
-    "main.c54d79fd.js.map": "/portfolio/static/js/main.c54d79fd.js.map",
+    "main.b6182d5e.js.map": "/portfolio/static/js/main.b6182d5e.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc8902d8.css",
-    "static/js/main.c54d79fd.js"
+    "static/js/main.b6182d5e.js"
   ]
 }
