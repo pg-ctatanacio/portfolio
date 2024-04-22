@@ -7,6 +7,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import Home2 from "../Home/Home2";
+import Familiar from "./Familiar";
 
 function About() {
 	return (
@@ -42,6 +43,12 @@ function About() {
 					<strong className="purple">Tools</strong> I use
 				</h1>
 				<Toolstack />
+
+				<h1 className="project-heading">
+					Other <strong className="purple">Stack and Tools</strong> I'm familiar with
+				</h1>
+
+				<Familiar />
 			</Container>
 		</Container>
 	);
